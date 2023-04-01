@@ -1,0 +1,13 @@
+{
+  // https://nuxt.com/docs/guide/concepts/typescript
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "useDefineForClassFields": true,
+    "strictNullChecks": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "lib": ["esnext", "dom"],
+    "types": ["vite/client", "vitest/globals", "node"],
+    "typeRoots": ["node_modules/@types", "src/typings"],
+},
+}
