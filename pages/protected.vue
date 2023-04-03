@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const { status, data, signOut, signIn } = useSession()
-console.log("🚀 ~ file: protected.vue:3 ~ status:", status.value)
+console.log("🚀 ~ protected.vue ~ data | status:", data, status)
 
 // definePageMeta({ auth: false })
 
