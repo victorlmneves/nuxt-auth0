@@ -8,6 +8,8 @@
           <li><NuxtLink to="/">Home</NuxtLink></li>
           <li><NuxtLink to="/about">About</NuxtLink></li>
           <li><NuxtLink to="/protected">Protected</NuxtLink></li>
+          <li><NuxtLink to="/access">Access</NuxtLink></li>
+          <li><NuxtLink to="/login">Login</NuxtLink></li>
         </ul>
       </div>
     </div>
@@ -16,13 +18,3 @@
     <slot />
   </main>
 </template>
-
-<style scoped>
-  li > a {
-    color: rgb(180, 180, 180);
-  }
-
-  li > a:hover {
-    color: #fff;
-  }
-</style>
